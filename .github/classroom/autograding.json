@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "test successfully builds",
+      "setup": "make clean",
+      "run": "make",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Task 0 State loadState() operations",
+      "setup": "make",
+      "run": "./test --list-test-names-only [task0] | grep . && ./test [task0]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Task 1 needsAreMet member function",
+      "setup": "make",
+      "run": "./test --list-test-names-only [task1] | grep . && ./test [task1]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Task 2 findCandidateProcess member function",
+      "setup": "make",
+      "run": "./test --list-test-names-only [task2] | grep . && ./test [task2]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Task 3 releaseAllocatedResources member function",
+      "setup": "make",
+      "run": "./test --list-test-names-only [task3] | grep . && ./test [task3]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Task 4 isSafe member function",
+      "setup": "make",
+      "run": "./test --list-test-names-only [task4] | grep . && ./test [task4]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "system tests",
+      "setup": "make",
+      "run": "./scripts/run-system-tests",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
