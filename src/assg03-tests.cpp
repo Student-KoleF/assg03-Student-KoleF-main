@@ -72,7 +72,7 @@ TEST_CASE("Test State loadState() functionality", "[task0]")
 /**
  * @brief Task 1: needsAreMet() member function tests
  */
-#define task1
+#undef task1
 #ifdef task1
 TEST_CASE("Task 1: needsAreMet() member function", "[task1]")
 {
@@ -210,7 +210,7 @@ TEST_CASE("Task 1: needsAreMet() member function", "[task1]")
 /**
  * @brief Task 2: findCandidateProcess() member function tests
  */
-#define task2
+#undef task2
 #ifdef task2
 TEST_CASE("Task 2: findCandidateProcess() member function", "[task2]")
 {
@@ -408,7 +408,7 @@ TEST_CASE("Task 2: findCandidateProcess() member function", "[task2]")
 /**
  * @brief Task 3: releaseAllocatedResources() member function tests
  */
-#define task3
+#undef task3
 #ifdef task3
 TEST_CASE("Task 3: releaseAllocatedResources() member function", "[task3]")
 {
@@ -586,7 +586,7 @@ TEST_CASE("Task 3: releaseAllocatedResources() member function", "[task3]")
 /**
  * @brief Task 4: isSafe() member function tests
  */
-#define task4
+#undef task4
 #ifdef task4
 TEST_CASE("Task 4: isSafe() member function", "[task4]")
 {
